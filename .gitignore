@@ -1,0 +1,3 @@
+*.bak-ghostdock
+*.zip
+__pycache__/

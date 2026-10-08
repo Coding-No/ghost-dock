@@ -1,0 +1,18 @@
+/* ===== LALA: DOCK TANPA BACKGROUND (override total) ===== */
+#dash .dash-background,
+#dash .dash-background:ltr,
+#dash .dash-background:rtl,
+.dash-background {
+    background-color: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+#dash {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+#dash .dash-item-container .app-well-app .overview-icon,
+#dash .dash-item-container .show-apps .overview-icon {
+    background-color: transparent !important;
+}
